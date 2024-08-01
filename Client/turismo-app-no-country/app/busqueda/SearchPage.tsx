@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 import SearchBar from './SearchBar';
 import ProductCard from './ProductCard'; // Ajuste de la ruta
-import products from '../../public/products.json';
+import products from '../data/products.json';
 import SearchFilter from '../Filtro/SearchFilter';
 
 interface Product {

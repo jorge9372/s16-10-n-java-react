@@ -23,7 +23,7 @@ const headerNavLinks = [
     {
         id: 4,
         title: 'Premium',
-        href: '/premium',
+        href: '/',
     },
 ];
 
