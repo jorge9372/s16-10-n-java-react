@@ -12,7 +12,7 @@ const FormWelcome = () => {
   const { onHandleNext, step } = useFormState();
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    console.log(data);
+    // console.log(data);
     onHandleNext();
   };
 
